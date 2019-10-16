@@ -12,7 +12,7 @@
       <div class="head">岗位要求:</div>
       <div class="text"v-html='detail.yaoqiu'></div>
     </div>
-    <div class="daiyu selection">
+    <div class="daiyu selection" v-if="id < 4">
       <div class="tit"><img src="../assets/fuli.png" alt=""></div>
       <div class="text">1、五险一金</div>
       <div class="text">2、节假日福利、生日福利、高温补贴、学历补贴、工龄补贴、企业活动、部门团建等</div>
@@ -20,11 +20,20 @@
       <div class="text">4、餐费补贴</div>
       <div class="text">5、项目奖、年中、年终奖、绩效奖金、优秀奖金等。</div>
     </div>
-    <div class="telme selection">
+    <div class="telme selection" v-if="id < 9">
       <div class="tit"><img src="../assets/lianxi.png" alt=""></div>
       <div class="text">联 系 人：印小姐</div>
       <div class="text" @click="onTel">联系电话：0731-84801250</div>
       <div class="text">联系邮箱：tygg@eeadv.com</div>
+      <div class="text">联系地址：湖南省长沙市浏阳河大桥东金鹰大厦3楼</div>
+      <div class="button tc"><img :class="[has_delivered ? 'active':'']" @click='toudi' src="../assets/toudi_btn.png" alt=""></div>
+      <div class="tip">本次校招您可以投递次数为{{total_chance}}次，<span class="count">剩余{{left_chance}}次</span>，请合理投递</div>
+    </div>
+    <div class="telme selection" v-else>
+      <div class="tit"><img src="../assets/lianxi.png" alt=""></div>
+      <div class="text">联 系 人：王小姐</div>
+      <div class="text" @click="onTel">联系电话：18807412488</div>
+      <div class="text">联系邮箱：wangyao@mgushow.com.cn</div>
       <div class="text">联系地址：湖南省长沙市浏阳河大桥东金鹰大厦3楼</div>
       <div class="button tc"><img :class="[has_delivered ? 'active':'']" @click='toudi' src="../assets/toudi_btn.png" alt=""></div>
       <div class="tip">本次校招您可以投递次数为{{total_chance}}次，<span class="count">剩余{{left_chance}}次</span>，请合理投递</div>

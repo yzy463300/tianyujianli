@@ -118,6 +118,20 @@ export default {
           title: "会计",
           address: "湖南长沙",
           zhuanye: "财会、金融专业"
+        },
+        {
+          id: 9,
+          img: require("../assets/img.jpg"),
+          title: "星探",
+          address: "湖南长沙",
+          zhuanye: "不限专业"
+        },
+        {
+          id: 10,
+          img: require("../assets/img.jpg"),
+          title: "网红",
+          address: "湖南长沙",
+          zhuanye: "不限专业"
         }
       ]
     };
