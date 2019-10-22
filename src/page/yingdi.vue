@@ -5,9 +5,9 @@
       <div class="selection tiyan">
        <div class="tit"><img src="../assets/tiyan.png" alt=""></div>
        <div class="p1"><img src="../assets/xuanjiang.png" alt=""></div>
-       <div class="p2">2019年10月29日14:30——16:30  湖南大学</div>
-       <div class="p2">2019年10月31日14:30——16:30  湘潭大学</div>
-       <div class="p2">2019年11月04日14:30——16:30  湖南师范大学</div>
+       <div class="p2">2019年10月29日10:00——12:30  湖南大学 研B202</div>
+       <div class="p2">2019年10月31日14:30——18:00  湘潭大学 图书馆报告厅</div>
+       <div class="p2">2019年11月4日14:30——18:00  湖南师范大学 文学院311</div>
       </div>
       <div class="selection yingdi">
         <div class="tit"><img src="../assets/yingdi.png" alt=""></div>
